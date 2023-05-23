@@ -3781,3 +3781,100 @@ mission "Hunted"
 		system
 			distance 5 5
 		fleet "Marauder fleet X"
+
+mission "Loan [0]"
+	job
+	repeat
+	deadline 365
+	name `Loan money`
+	description `A young pilot is looking for someone to give them a loan with no daily intrest. You will pay them 300,000 credits, and receive 1644 credits per day, amounting to 600,000 credits by <date>, when the loan ends.`
+	source
+		government Republic "Free Worlds" Independent # no Syndicate because they want you to use their banks.
+	to offer
+		"random" < 10
+	to accept
+		"credits" > 5000000
+	on accept
+		"payment" 300000
+	daily
+		"payment" 1644
+	on fail
+		dialog `The pilot who you gave a loan to has paid the full price.`
+
+mission "Loan [1]"
+	job
+	repeat
+	deadline 365
+	name `Loan money`
+	description `A young pilot is looking for someone to give them a loan with no daily intrest. You will pay them 300,000 credits, and receive 1644 credits per day, amounting to 600,000 credits by <date>, when the loan ends.`
+	source
+		government Republic "Free Worlds" Independent
+	to offer
+		"random" < 10
+	to accept
+		"credits" > 5000000
+	on accept
+		"payment" 300000
+	daily
+		"payment" 1644
+	on fail
+		dialog `The pilot who you gave a loan to has paid the full price.`
+
+
+mission "Loan [2]"
+	job
+	repeat
+	deadline 365
+	name `Loan money`
+	description `A young pilot is looking for someone to give them a loan with no daily intrest. You will pay them 300,000 credits, and receive 1644 credits per day, amounting to 600,000 credits by <date>, when the loan ends.`
+	source
+		government Republic "Free Worlds" Independent
+	to offer
+		"random" < 10
+	to accept
+		"credits" > 5000000
+	on accept
+		"payment" 300000
+	daily
+		"payment" 1644
+	on fail
+		dialog `The pilot who you gave a loan to has paid the full price.`
+
+
+mission "Loan [3]"
+	job
+	repeat
+	deadline 365
+	name `Loan money`
+	description `A young pilot is looking for someone to give them a loan with no daily intrest. You will pay them 300,000 credits, and receive 1644 credits per day, amounting to 600,000 credits by <date>, when the loan ends.`
+	source
+		government Republic "Free Worlds" Independent
+	to offer
+		"random" < 10
+	to accept
+		"credits" > 5000000
+	on accept
+		"payment" 300000
+	daily
+		"payment" 1644
+	on fail
+		dialog `The pilot who you gave a loan to has paid the full price.`
+
+mission "Loan [4]"
+	job
+	repeat
+	deadline 365
+	name `Loan money`
+	description `A young pilot is looking for someone to give them a loan with no daily intrest. You will pay them 300,000 credits, and receive 1644 credits per day, amounting to 600,000 credits by <date>, when the loan ends.`
+	source
+		government Republic "Free Worlds" Independent
+	to offer
+		"random" < 10
+	to accept
+		"credits" > 5000000
+	on accept
+		"payment" 300000
+	daily
+		"payment" 1644
+	on fail
+		dialog `The pilot who you gave a loan to has paid the full price.`
