@@ -36,3 +36,6 @@ Endless Sky's main discussion and development area was once [Google Groups](http
 ## Licensing
 
 Endless Sky is a free, open source game. The [source code](https://github.com/endless-sky/endless-sky/) is available under the GPL v3 license, and all the artwork is either public domain or released under a variety of Creative Commons (and similarly permissive) licenses. (To determine the copyright status of any of the artwork, consult the [copyright file](https://github.com/endless-sky/endless-sky/blob/master/copyright).)
+
+## Why this is here?
+This is outdated, but there are some things that I (or someone else) would like to be able to access.
