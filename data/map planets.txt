@@ -70,7 +70,7 @@ planet Aksaray
 	security 0
 
 planet Albatross
-	attributes frontier pirate south "south pirate"
+	attributes frontier pirate south "south pirate" frozen
 	landscape land/snow6
 	description `Albatross is a cold ocean world orbiting a small, cold sun. The first settlers on Albatross were anarchists who believed that in a society free from unnatural laws and constraints, everyone would happily and freely work for the common good. The next settlers were pirates who believed that a planet free from laws and constraints would be a great base of operations.`
 	description `	The anarchist farming communes, each operating independently but trading with outsiders to gain necessary supplies, are clustered in the barely temperate climate near the equator. The pirate bases, having a much more ready source of supplies, are located wherever there are flat landing areas close to craggy, defensible mountains.`
@@ -438,7 +438,7 @@ planet "Brass Second"
 	security 0.5
 
 planet "Bright Echo"
-	attributes folklore saryd tourism urban
+	attributes folklore saryd tourism urban frozen
 	landscape land/snow21
 	description `This is the first world that the Saryds colonized outside of their own solar system. Although somewhat colder than their native planet, it developed into a thriving metropolitan world. The original settlers planned out in exacting detail how every part of the planet's land mass should be used, in order to satisfy their aesthetic ideal of blending residential areas with parks and farms. Large areas have also been set aside as undeveloped wilderness.`
 	spaceport `The spaceport is in what, by Saryd standards, is a major city, with scattered skyscrapers surrounded by forests and grassy park land along with smaller dwellings and occasional factories or power plants. The city is built on either side of one of this continent's largest rivers, a few kilometers downstream from a dam and hydroelectric plant. Here, the river cuts through a deep gorge, and the graceful bridges that cross the gorge are often shrouded in mist.`
@@ -689,7 +689,7 @@ planet Cloudfire
 	security 0.9
 
 planet "Cold Horizon"
-	attributes folklore saryd tourism
+	attributes folklore saryd tourism frozen
 	landscape land/snow11-sfiera
 	description `In the early mornings on Cold Horizon, the trees are often coated in a thin layer of glittering frost that burns away a few hours after sunrise. In the short summer season, flocks of migratory birds arrive in the forest, bringing a cacophony of music and a riot of color to the otherwise serene woodlands.`
 	description `	Half a billion Saryds live here, drawn not so much by the planet's resources, which are scarce, as by its natural beauty.`
@@ -896,7 +896,7 @@ planet "Deli Kat"
 	security 0
 
 planet Delve
-	attributes core mining
+	attributes core mining frozen
 	landscape land/snow1
 	description `Delve is a world of towering mountains and valleys so steep that some slopes never see the light of the sun, where snow and ice remain on the topmost peaks year-round.`
 	description `	The Syndicate's mining operations here are among the most extensive in the region, with some shafts descending several kilometers below the surface. Some of the mines are as large as a city, and in fact many of the mining cities are under ground, built in sections of old mines that have long since run out of useful metals.`
@@ -2883,7 +2883,7 @@ planet "New Finding"
 	security 0.3
 
 planet "New Greenland"
-	attributes "dirt belt" forest textiles
+	attributes "dirt belt" forest textiles forest # maybe
 	landscape land/snow16
 	description `New Greenland was first settled about six hundred years ago, at the peak of the "Turf Wars" era where most planets were controlled by powerful corporations and their struggles often turned into outright warfare with privately owned fleets and armies. The people who came to New Greenland were looking for a world so marginal and undesirable that they could live here in peace without being caught in the crossfire.`
 	description `	The locals here grow food in greenhouses and specialize in making warm winter clothing, which is this planet's only export.`
@@ -3995,7 +3995,7 @@ planet "Smuggler's Den"
 		fleet "Small Southern Pirates" 21
 
 planet Snowfeather
-	attributes hai "hai tourism"
+	attributes hai "hai tourism" frozen # randomly
 	landscape land/dmottl4
 	description `Snowfeather is a world with unusually chaotic weather patterns, where snow can fall even in the middle of summer but will melt away within days when the temperature shifts and becomes warmer again. Surprisingly, it is a popular vacation spot for the Hai, who find the unpredictability and occasional violence of the weather here to be invigorating.`
 	spaceport `The core of the spaceport is two rows of hangars, back to back. Their thick metal roofs slope backwards, away from the entrance to each hangar, so that any snow or ice that slides off the roofs will not fall across the opening while ships or people are passing through. The hangars are also elevated about six meters above the ground, to protect against flash floods.`
@@ -4445,7 +4445,7 @@ planet "Typhon Station"
 		fleet "Large Militia" 8
 
 planet Vail
-	attributes farming paradise tourism
+	attributes farming paradise tourism frozen # terraformed though
 	landscape land/snow4
 	description `Vail is an entire world that is maintained as a ski resort for rich clients from the nearby planets. A combination of terraforming and snow making ensures that whichever hemisphere is in winter always has ideal skiing conditions, while farming and other small industries supply the tourists and the large staffs that cater to them.`
 	description `	The slopes here include tracks for all the latest dangerous and expensive extreme winter sports, like hoverboarding and wingsuit cliff skiing.`
@@ -4666,7 +4666,7 @@ planet Vigales
 	government Uninhabited
 
 planet Viminal
-	attributes remnant "remnant primary"
+	attributes remnant "remnant primary" frozen
 	landscape land/snow3
 	description `This cold and dreary world would certainly not be attractive to any modern settlers, but to those who were fleeing the chaos of the Alpha Wars it had the undeniable advantage of being isolated and undiscovered. Today the main reason for the continuing Remnant presence here is that this is the only world they have found where the Key Stones that enable ships to travel through certain wormholes in the Ember Waste can be found.`
 	spaceport `The spaceport is an enormous dome, built of the same resilient and semi-organic material as the hulls of Remnant ships. An opening at one end of the dome allows ships to fly in and out. Inside, the air is still cold, but at least you are sheltered from the violent winds that sweep across the rest of the planet's surface. Some of the locals, accustomed to the cold, walk about in their shirtsleeves as if this were a balmy summer day.`
