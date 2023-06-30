@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - boarding-equipment-copy-release
-      - releases/v[0-9]+.[0-9]+.[0-9]+
+      - releases/releases/work[0-9]+
   pull_request:
     types: [opened, synchronize]
 
